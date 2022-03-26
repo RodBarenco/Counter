@@ -1,0 +1,53 @@
+body{
+	
+	background:#c8f8ff;
+	
+	
+	padding:0;
+	margin:0;
+}
+
+#value{
+  font-size: 6rem;
+  font-weight: bold;
+}
+	
+
+.container{
+	background: -webkit-gradient(linear, left top, right top, from(#cdcdcd), to(#9292c3)) no-repeat;
+	background: -moz-linear-gradient(left, #cdcdcd, #9292c3);
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#cdcdcd', EndColorStr='#9292c3');
+	margin: auto;
+	margin-top:10rem;
+	text-align:center;
+	display: grid;
+	border-radius: 10px;
+	width:28rem;
+	height:20rem;
+    
+}
+
+.btn {
+	
+  display:flex;
+  text-transform: uppercase;
+ 
+  background:transparent;
+  color: #1c1c1c;
+  letter-spacing: 0.4rem;
+  display: inline-block;
+  font-weight: 700;
+  transition: width 1s;
+  border: 2px solid #000000;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-size: 0.65rem;
+  padding: 0.55rem 0.55rem;
+}
+
+.btn:hover {
+  color: #f8f8ff;
+  background: #1c1c1c;
+}
+	
